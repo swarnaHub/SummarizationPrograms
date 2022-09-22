@@ -10,7 +10,7 @@
 
 ## Installation
 This repository is tested on Python 3.8.12.  
-You should install PRover on a virtual environment. All dependencies can be installed as follows:
+You should install SummarizationPrograms on a virtual environment. All dependencies can be installed as follows:
 ```
 pip install -r requirements.txt
 ```
