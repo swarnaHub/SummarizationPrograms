@@ -1,0 +1,7 @@
+datasets==1.18.3
+graphviz==0.19.1
+nltk==3.7
+numpy==1.22.2
+torch==1.10.2
+transformers==4.22.1
+transformers.egg==info
