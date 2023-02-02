@@ -49,4 +49,8 @@ python compute_spsearch_rouge.py
 ```
 ## RQ2: SP Generation Models
 
-Training data, code and pre-trained models will be released soon!!
+Generating summaries via SP has three steps.
+
+- First, we fine-tune a BART model leveraging the SP-Search programs. Use the script `scripts/train_sp_gen.sh`. You need to process the training file in json format according to the HuggingFace transformers library.
+- Second, do inference from this model using `sp_model/eval_sp.py` to generate intermediate SPs.
+- Third, execute these generated programs via the pre-trained modules to obtain the final summaries. The script is `sp_model/execute_sp.py`.
