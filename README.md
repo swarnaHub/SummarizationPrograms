@@ -1,4 +1,4 @@
-# Summarization Programs
+# Summarization Programs (ICLR 2023)
 
 [Summarization Programs: Interpretable Abstractive Summarization with Neural Modular Trees](https://arxiv.org/abs/2209.10492)
 
@@ -54,3 +54,13 @@ Generating summaries via SP has three steps.
 - First, we fine-tune a BART model leveraging the SP-Search programs. Use the script `scripts/train_sp_gen.sh`. You need to process the training file in json format according to the HuggingFace transformers library.
 - Second, do inference from this model using `sp_model/eval_sp.py` to generate intermediate SPs.
 - Third, execute these generated programs via the pre-trained modules to obtain the final summaries. The script is `sp_model/execute_sp.py`.
+
+### Citation
+```
+@inproceedings{saha2023summarization,
+  title={Summarization programs: Interpretable abstractive summarization with neural modular trees},
+  author={Saha, Swarnadeep and Zhang, Shiyue and Hase, Peter and Bansal, Mohit},
+  booktitle={ICLR},
+  year={2023}
+}
+```
