@@ -466,7 +466,7 @@ if __name__ == '__main__':
     parser.add_argument('--max_queue_size', default=20, type=int, help='Maximum queue size')
     parser.add_argument('--batch_size', default=4, type=int, help='Batch size for module execution')
     parser.add_argument('--score_metric', default='rougeL', type=str, help='Metric to optimize for SP-Search')
-    parser.add_argument('--paraphrase_model_path', default='../modules/paraphrase', type=str, help='Path to pre-trained Paraphrase Module')
+    parser.add_argument('--paraphrase_model_path', default='tuner007/pegasus_paraphrase', type=str, help='Path to pre-trained Paraphrase Module')
     parser.add_argument('--compression_model_path', default='../modules/compression', type=str, help='Path to pre-trained Compression Module')
     parser.add_argument('--fusion_model_path', default='../modules/fusion', type=str, help='Path to pre-trained fusion Module')
     parser.add_argument('--num_return_sequences', default=5, type=int, help='Number of outputs from each module')
