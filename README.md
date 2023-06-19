@@ -38,7 +38,7 @@ In order to identify Summarization Programs for human summaries, execute the fol
 cd sp_search
 python main.py
 ```
-The pre-trained modules will be available for download [here](https://drive.google.com/drive/folders/1Wn9ZHF91hFbYC3cGNnAaWZe-TihF4taI?usp=sharing). Place them inside the `modules` directory.
+The pre-trained modules are available for download [here](https://drive.google.com/drive/folders/1Wn9ZHF91hFbYC3cGNnAaWZe-TihF4taI?usp=sharing). For paraphrase, we directly used the model available [here](https://huggingface.co/tuner007/pegasus_paraphrase). Download the other two modules and place them inside the `modules` directory.
 
 Upon running the search, you will see outputs similar to what's there in the `output` folder. The `sp_search.tsv` file will save the Summarization Programs and the corresponding summaries. The folder `sp_search` will save the SPs in individual pdfs for visualization.
 
